@@ -2,7 +2,7 @@ from random import randint
 
 DEFAULT_ATTACK = 5
 DEFAULT_DEFENCE = 10
-DEFAULT_STAMINA = 80
+DEFAULT_STAMINA = 80 
 
 
 class Character:
@@ -60,7 +60,6 @@ class Healer(Character):
     RANGE_VALUE_DEFENCE = (2, 5)
     SPECIAL_BUFF = DEFAULT_DEFENCE + 30
     SPECIAL_SKILL = 'Защита'
-
 
 warrior = Warrior('Кодослав')
 print(warrior)
